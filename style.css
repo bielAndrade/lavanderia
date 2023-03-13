@@ -1,0 +1,341 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #323232;
+    background-color: #f2f5f8;
+}
+
+.nav{
+    height: 60px;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #52b765;
+    padding-top: 10px;
+    font-size: 1.7rem;
+}
+
+.navbar{
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    display: inline;
+    margin: 0px 20px 0px 20px;
+    font-size: 25px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar ul li:hover{
+    border-bottom: #183862 solid 2px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.contact{
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #183862;
+    border: white 2px solid;
+}
+
+.contact:hover{
+    font-size: 20px;
+    transition: 0.2s;
+    background-color: #183862;
+    border: #183862 2px solid;
+    cursor: pointer;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.4)), url(./img/mainBanner.jpg);
+    height: 85vh;
+    background-size: cover;
+    margin-top: 85px;
+}
+
+.laundryAnnounce{
+    width: 800px;
+    height: 400px;
+    padding: 250px 0px 50px 50px;
+}
+
+.laundryAnnounce h1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: #52b765;
+}
+
+.laundryAnnounce h2{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.aboutUs{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 300px 80px 300px;
+}
+
+#aboutImg{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.aboutLaundry{
+    margin-left: 60px;
+}
+
+.aboutLaundry h2{
+    color: #183862;
+    font-size: 2.6rem;
+}
+
+.aboutLaundry p{
+    color: #7b7b7b;
+    max-width: 500px;
+    margin-top: 45px;
+    font-size: 1.3rem;
+}
+
+.aboutInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.aboutInfo::before{
+    content: '';
+    display: inline-block;
+    background-image: url(./img/tt.png);
+    width: 28px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutInfo .callUs{
+    font-size: 1.5rem;
+    color: #7b7b7b;
+}
+
+.aboutInfo address{
+    font-size: 1.5rem;
+    font-weight: 700; 
+    color: #183862;
+}
+
+.whyUs h2{
+    text-align: center;
+    color: #183862;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.advantages{
+    display: flex;
+    justify-content: center;
+}
+
+.save, .pay, .eco{
+    padding-top: 50px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.save:hover, .pay:hover, .eco:hover{
+    cursor: pointer;
+    color: #52b765;
+    border-bottom: solid 2px #52b765;
+    transition: 0.3s;
+}
+
+.save h3, .pay h3, .eco h3{
+    font-size: 1.5rem;
+}
+
+.save p , .pay p, .eco p{
+    margin: 20px 25px 20px 25px;
+    color: #7b7b7b;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.services{
+    margin-top: 80px;
+}
+
+.services h2{
+    text-align: center;
+    color: #183862;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.ourServices{
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.passamos, .secamos, .limpamos, .entregamos{
+    width: 300px;
+    height: 380px;
+    margin: 50px 30px 50px 30px;
+    padding: 15px;
+    text-align: center;
+    border: #7b7b7b solid 2px;
+    display: block;
+}
+
+.passamos h3, .secamos h3, .limpamos h3, .entregamos h3{
+    color: #52b765;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.passamos p, .secamos p, .limpamos p, .entregamos p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.readMore{
+    color: #323232;
+    font-size: 1.4rem;
+    padding: 5px 80px 5px 80px;
+    background-color: #7b7b7b3d;
+}
+
+.passamos:hover, .secamos:hover, .limpamos:hover, .entregamos:hover{
+    cursor: pointer;
+    background-color: #b3b3b348;
+}
+
+footer{
+    background-color: #7b7b7ba2;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: auto;
+}
+
+.signUp, .footerContact{
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+}
+
+.signUp h3, .footerContact h3{
+    text-align: center;
+    color: #183862;
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+}
+
+#name, #mail{
+    width: 270px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    padding-left: 10px;
+    border: none;
+}
+
+#submit{
+    color: white;
+    background-color: #183862;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+
+.phone, .mailContact, .adress{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.contactUs .phone::before{
+    content: '';
+    display: inline-block;
+    background-image: url(./img/whatsappLogo.png);
+    width: 28px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.contactUs .mailContact::before{
+    content: '';
+    display: inline-block;
+    /* background-image: url(./img/download\ \(1\).jpg); */
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.contactUs .adress::before{
+    content: '';
+    display: inline-block;
+    background-image: url(./img/iconLocal.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.rights{
+    height: 50px;
+    background-color: #5c5b5bf6;
+}
+
+.rights h4{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footerBy{
+    color: #52b765;
+}
